@@ -8,7 +8,7 @@ class Tentaculo {
         this.py = -50;
         this.vel = this.app.random(4.7, 5);
 
-        this.imagen = this.app.loadImage("/ficha/export/atk2.png");
+        this.imagen = this.app.loadImage("./ficha/export/atk2.png");
 
     }
 

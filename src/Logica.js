@@ -20,8 +20,8 @@ class Logica {
         );
 
 
-        this.cinzel = this.app.loadFont("/ficha/font/Cinzel/Cinzel-Black.ttf");
-        this.vingg = this.app.loadImage("/ficha/vingg.png")
+        this.cinzel = this.app.loadFont("./ficha/font/Cinzel/Cinzel-Black.ttf");
+        this.vingg = this.app.loadImage("./ficha/vingg.png")
 
 
         this.pantalla = 0;
@@ -60,7 +60,7 @@ class Logica {
 
     laPrevia() {
         this.app.soundFormats('mp3', 'ogg');
-        this.miCancion = this.app.loadSound("/ficha/llamado.mp3");
+        this.miCancion = this.app.loadSound("./ficha/llamado.mp3");
 
     }
 

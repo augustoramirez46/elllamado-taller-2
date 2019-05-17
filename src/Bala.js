@@ -8,7 +8,7 @@ class Bala {
         this.py = py;
         this.vel = this.app.random(4.7, 5);
 
-        this.imagen = this.app.loadImage("/ficha/export/atk1.png");
+        this.imagen = this.app.loadImage("./ficha/export/atk1.png");
 
         this.mover = this.mover.bind(this);
         setInterval(this.mover, 20); 

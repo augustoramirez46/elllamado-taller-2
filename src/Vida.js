@@ -8,10 +8,10 @@ class Vida {
 
         this.imagen = [];
         this.imagen.push(
-            this.app.loadImage("/ficha/export/vidas.png")
+            this.app.loadImage("./ficha/export/vidas.png")
         );
         this.imagen.push(
-            this.app.loadImage("/ficha/export/vidas1.png")
+            this.app.loadImage("./ficha/export/vidas1.png")
         );
 
         this.indice = 0;
