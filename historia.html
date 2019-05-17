@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>el llamado</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <aside>
+        <figure>
+            <div id = "yoyas">  </div>
+            <figcaption> Augusto Ramirez </figcaption>
+            
+        </figure>
+        <img src="ficha/images/menu.svg" alt="">
+
+        <nav>
+            <ul class="active">
+                    <li>  <a href="/index.html"> Inicio </a></li>
+                <li>  <a href="/historia.html"> Historia </a></li>
+                <li>  <a href="/acerca.html"> Acerca de </a></li>
+                <li>  <a href="/juego.html"> Juego </a></li>
+                
+            </ul>
+        </nav>
+
+    </aside>
+
+    <main>
+        <h1> HISTORIA </h1>
+        <p> El mundo esta preparado para la llegada de nuestro señor Chotulu.</p>
+        <p> Ahora se encuentra en tus manos permitir su invocación exitosa mientras repeles los constantes ataques de los Pendejetes</p>
+
+        <a href="/juego.html" class="cta">Jugar</a>
+
+    </main>
+
+    <script>
+        (function() {
+            var menu = document.querySelector('ul'), 
+            menuLink = document.querySelector('img');
+
+            menuLink.addEventListener('click', function(e){
+                menu.classList.toggle('active');
+                e.preventDefault();
+            })
+        })
+    
+    </script>
+
+</body>
+
+</html>
