@@ -14,19 +14,19 @@
 
     <aside>
         <figure>
-            <div id = "yoyas">  </div>
+            <div id="yoyas"> </div>
             <figcaption> Augusto Ramirez </figcaption>
-            
+
         </figure>
         <img src="ficha/images/menu.svg" alt="">
 
         <nav>
             <ul class="activo">
-                <li>  <a href="./index.html"> Inicio </a></li>
-                <li>  <a href="./historia.html"> Historia </a></li>
-                <li>  <a href="./acerca.html"> Acerca de </a></li>
-                <li>  <a href="./juego.html"> Juego </a></li>
-                
+                <li> <a href="./index.html"> Inicio </a></li>
+                <li> <a href="./historia.html"> Historia </a></li>
+                <li> <a href="./acerca.html"> Acerca de </a></li>
+                <li> <a href="./juego.html"> Juego </a></li>
+
             </ul>
         </nav>
 
@@ -40,27 +40,27 @@
         <p> interactivos, dedica sus dias a programar taller 2 en </p>
         <p> algoritmos.</p>
 
-        <a href="/juego.html" class="cta">Jugar</a>
+        <a href="./juego.html" class="cta">Jugar</a>
 
         <div class="yop">
 
-         <img src="./ficha/images/yop.jpg" alt="">
+            <img src="./ficha/images/yop.jpg" alt="">
 
         </div>
 
     </main>
 
     <script>
-        (function() {
-            var menu = document.querySelector('ul'), 
-            menuLink = document.querySelector('img');
+        (function () {
+            var menu = document.querySelector('ul'),
+                menuLink = document.querySelector('img');
 
-            menuLink.addEventListener('click', function(e){
+            menuLink.addEventListener('click', function (e) {
                 menu.classList.toggle('activo');
                 e.preventDefault();
             })
         })
-    
+
     </script>
 
 </body>
